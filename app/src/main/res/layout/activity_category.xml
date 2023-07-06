@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red"
+    tools:context=".Category">
+
+    <TextView
+        android:id="@+id/tvCate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="52dp"
+        android:text="Category"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCat1"
+        android:layout_width="107dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCate"
+        app:srcCompat="@drawable/shoeaddidas" />
+
+    <ImageView
+        android:id="@+id/ivCat2"
+        android:layout_width="103dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/ivCat1"
+        app:layout_constraintTop_toBottomOf="@+id/tvCate"
+        app:srcCompat="@drawable/shoemike" />
+
+    <ImageView
+        android:id="@+id/ivCat3"
+        android:layout_width="130dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="111dp"
+        app:layout_constraintStart_toEndOf="@+id/ivCat2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/puma" />
+
+    <ImageView
+        android:id="@+id/ivCat5"
+        android:layout_width="260dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat9"
+        app:srcCompat="@drawable/men" />
+
+    <ImageView
+        android:id="@+id/ivCat9"
+        android:layout_width="216dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat3"
+        app:srcCompat="@drawable/lady" />
+
+    <TextView
+        android:id="@+id/tvCat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:text="Woman Shoes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivCat9"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat3" />
+
+    <TextView
+        android:id="@+id/tvCat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Men Shoes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ivCat5"
+        app:layout_constraintTop_toBottomOf="@+id/tvCat2" />
+
+    <ImageView
+        android:id="@+id/ivCat6"
+        android:layout_width="198dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat5"
+        app:srcCompat="@drawable/kid" />
+
+    <TextView
+        android:id="@+id/tvCat7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:text="Kids Shoes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toEndOf="@+id/ivCat6"
+        app:layout_constraintTop_toBottomOf="@+id/tvCat4" />
+
+    <Button
+        android:id="@+id/btnCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="46dp"
+        android:text="Next"
+        app:layout_constraintStart_toEndOf="@+id/ivCat6"
+        app:layout_constraintTop_toBottomOf="@+id/tvCat7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

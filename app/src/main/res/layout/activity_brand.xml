@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red"
+    tools:context=".Brand">
+
+    <TextView
+        android:id="@+id/tnOne2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="280dp"
+        android:text="3500"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivAddas"
+        android:layout_width="117dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBrand"
+        app:srcCompat="@drawable/shoeaddidas" />
+
+    <ImageView
+        android:id="@+id/ivAir"
+        android:layout_width="136dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toEndOf="@+id/ivAddas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shoemike" />
+
+    <TextView
+        android:id="@+id/tvBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="101dp"
+        android:text="Brands"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivPuma"
+        android:layout_width="113dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="465dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivAddas"
+        app:srcCompat="@drawable/puma" />
+
+    <ImageView
+        android:id="@+id/ivOne"
+        android:layout_width="186dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPuma"
+        app:srcCompat="@drawable/puma1" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="190dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toEndOf="@+id/ivOne"
+        app:layout_constraintTop_toBottomOf="@+id/ivAir"
+        app:srcCompat="@drawable/puma4" />
+
+    <TextView
+        android:id="@+id/tvPuma1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+
+        android:hint="Puma sneaker"
+        android:textSize="50px"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivOne" />
+
+    <TextView
+        android:id="@+id/tvPuma2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:text="Puma sneaker"
+        android:textSize="50px"
+        app:layout_constraintStart_toEndOf="@+id/tvPuma1"
+        app:layout_constraintTop_toBottomOf="@+id/iv2" />
+
+    <TextView
+        android:id="@+id/tn2"
+        android:layout_width="43dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="5dp"
+        android:text="3500"
+        android:textSize="50px"
+        app:layout_constraintStart_toEndOf="@+id/tnOne2"
+        app:layout_constraintTop_toBottomOf="@+id/tvPuma2" />
+
+    <ImageView
+        android:id="@+id/ivAddi1"
+        android:layout_width="199dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tnOne2"
+        app:srcCompat="@drawable/add2" />
+
+    <ImageView
+        android:id="@+id/ivAddi2"
+        android:layout_width="191dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/ivAddi1"
+        app:layout_constraintTop_toBottomOf="@+id/tn2"
+        app:srcCompat="@drawable/addi3" />
+
+    <ImageView
+        android:id="@+id/ivAir1"
+        android:layout_width="241dp"
+        android:layout_height="129dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNike"
+        app:srcCompat="@drawable/air3" />
+
+    <ImageView
+        android:id="@+id/ivAir2"
+        android:layout_width="210dp"
+        android:layout_height="94dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivAir1"
+        app:layout_constraintTop_toBottomOf="@+id/tvsneaker1"
+        app:srcCompat="@drawable/air5" />
+
+    <TextView
+        android:id="@+id/tvNike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:text="Nike sneaker"
+        android:textSize="50px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAddi1" />
+
+    <TextView
+        android:id="@+id/tvsneaker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Nike sneaker"
+        android:textSize="50px"
+        app:layout_constraintStart_toEndOf="@+id/ivAir1"
+        app:layout_constraintTop_toBottomOf="@+id/ivAddi2" />
+
+    <TextView
+        android:id="@+id/tvAir2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:text="Air max"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAir2" />
+
+    <Button
+        android:id="@+id/btnBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="53dp"
+        android:text="Next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

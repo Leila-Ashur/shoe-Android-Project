@@ -1,0 +1,15 @@
+2023/05/03-07:07:30.277 c71 Reusing MANIFEST /home/student/snap/slack/69/.config/Slack/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/03-07:07:30.278 c71 Recovering log #15
+2023/05/03-07:07:30.278 c71 Reusing old log /home/student/snap/slack/69/.config/Slack/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000015.log 
+2023/05/03-07:10:24.081 c72 Level-0 table #20: started
+2023/05/03-07:10:24.085 c72 Level-0 table #20: 17164 bytes OK
+2023/05/03-07:10:24.091 c72 Delete type=0 #15
+2023/05/03-07:10:24.091 c72 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/05/03-07:10:24.091 c72 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 1419 : 1
+2023/05/03-07:10:24.091 c72 Compacting 1@1 + 1@2 files
+2023/05/03-07:10:24.096 c72 Generated table #21@1: 65 keys, 1509 bytes
+2023/05/03-07:10:24.096 c72 Compacted 1@1 + 1@2 files => 1509 bytes
+2023/05/03-07:10:24.101 c72 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/03-07:10:24.102 c72 Delete type=2 #20
+2023/05/03-07:10:24.102 c72 Delete type=2 #17
+2023/05/03-07:10:24.102 c72 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 1419 : 1 .. (end); will stop at (end)

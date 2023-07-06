@@ -1,0 +1,26 @@
+2023/06/08-07:38:15.138 f2f Reusing MANIFEST /home/student/snap/slack/71/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2023/06/08-07:38:15.145 f2f Recovering log #4696
+2023/06/08-07:38:15.146 f2f Level-0 table #4699: started
+2023/06/08-07:38:15.157 f2f Level-0 table #4699: 25296 bytes OK
+2023/06/08-07:38:15.162 f2f Delete type=0 #4696
+2023/06/08-07:40:16.051 f2f Level-0 table #4702: started
+2023/06/08-07:40:16.056 f2f Level-0 table #4702: 25394 bytes OK
+2023/06/08-07:40:16.061 f2f Delete type=0 #4700
+2023/06/08-07:40:16.061 f2f Compacting 4@0 + 1@1 files
+2023/06/08-07:40:16.065 f2f Generated table #4703@0: 35 keys, 32480 bytes
+2023/06/08-07:40:16.065 f2f Compacted 4@0 + 1@1 files => 32480 bytes
+2023/06/08-07:40:16.070 f2f compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/08-07:40:16.071 f2f Delete type=2 #4692
+2023/06/08-07:40:16.071 f2f Delete type=2 #4699
+2023/06/08-07:40:16.071 f2f Delete type=2 #4702
+2023/06/08-07:40:16.071 f2f Delete type=2 #4697
+2023/06/08-07:40:16.071 f2f Delete type=2 #4694
+2023/06/08-08:41:16.055 f2f Level-0 table #4705: started
+2023/06/08-08:41:16.067 f2f Level-0 table #4705: 28583 bytes OK
+2023/06/08-08:41:16.075 f2f Delete type=0 #4701
+2023/06/08-08:56:16.063 224d Level-0 table #4707: started
+2023/06/08-08:56:16.087 224d Level-0 table #4707: 33517 bytes OK
+2023/06/08-08:56:16.097 224d Delete type=0 #4704
+2023/06/08-09:05:16.070 f2f Level-0 table #4709: started
+2023/06/08-09:05:16.079 f2f Level-0 table #4709: 25443 bytes OK
+2023/06/08-09:05:16.087 f2f Delete type=0 #4706
